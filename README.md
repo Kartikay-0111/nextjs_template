@@ -54,7 +54,7 @@ This is a full-stack boilerplate template built with **Next.js**, **Supabase**, 
 
 ## Next Steps
 
-### ✅ 1. Configure Google OAuth in Supabase
+### 1. Configure Google OAuth in Supabase
 
 #### 🔧 In Supabase Dashboard:
 
@@ -81,20 +81,20 @@ This is a full-stack boilerplate template built with **Next.js**, **Supabase**, 
 7. Copy the **Client ID** and **Client Secret**.
 8. Paste them into the Supabase Google provider settings.
 
-✅ **Now Google Sign-In is enabled.**
+ **Now Google Sign-In is enabled.**
 
 ---
 
-### ✅ 2. Configure Email Auth (With Confirmation)
+### 2. Configure Email Auth (With Confirmation)
 
 #### 🔧 In Supabase Dashboard:
 
 1. Go to **Authentication → Settings → Email**.
 2. Enable:
-   - ✅ **“Confirm email” for signups**
-   - ✅ **"Enable email provider"**
+   -  **“Confirm email” for signups**
+   -  **"Enable email provider"**
 
-#### ✉️ Email Settings (Required for Confirmation Emails to Work):
+#### Email Settings (Required for Confirmation Emails to Work):
 
 **Option 1**: Use Supabase’s Built-in Email (Limited, but Simple)
 
